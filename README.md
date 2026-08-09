@@ -1,6 +1,6 @@
 # TaskFlow - Aplicación de Gestión de Tareas
 
-Aplicación web interactiva desarrollada para la evaluación del **Módulo #4: Programación avanzada en JavaScript**. El proyecto implementa gestión de tareas aplicando Programación Orientada a Objetos (POO), manipulación dinámica del DOM, eventos del navegador, funciones asíncronas con temporizadores, almacenamiento local y comunicación con una API remota.
+Aplicación web interactiva desarrollada para la evaluación del **Módulo #5: Programación avanzada en JavaScript**. El proyecto implementa gestión de tareas aplicando Programación Orientada a Objetos (POO), manipulación dinámica del DOM, eventos del navegador, funciones asíncronas con temporizadores, almacenamiento local y comunicación con una API remota.
 
 ---
 
