@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TaskFlow - Gestor de Tareas</title>
+  <link rel="stylesheet" href="css\styles.css">
+</head>
+<body>
+  <div class="app-container">
+    <header>
+      <h1>TaskFlow</h1>
+      <p>Gestión eficiente de tareas con JavaScript ES6+</p>
+    </header>
+
+    <main>
+      <!-- Cartel de notificación -->
+      <div id="notificacion" class="notificacion oculta"></div>
+
+      <!-- Formulario para agregar tareas -->
+      <section class="card-section">
+        <h2>Nueva Tarea</h2>
+        <form id="form-tarea">
+          <div class="form-group">
+            <input type="text" id="input-descripcion" placeholder="Escribe la tarea..." required>
+            <span id="contador-caracteres" class="hint">0 caracteres</span>
+          </div>
+          <div class="form-group">
+            <label for="input-limite">Fecha límite (opcional):</label>
+            <input type="datetime-local" id="input-limite">
+          </div>
+          <button type="submit" id="btn-agregar">Agregar Tarea</button>
+        </form>
+      </section>
+
+      <!-- Búsqueda y sincronización API -->
+      <section class="actions-section">
+        <input type="text" id="input-busqueda" placeholder="Buscar en la lista...">
+        <button id="btn-sync" class="btn-secondary">Sincronizar API</button>
+      </section>
+
+      <!-- Contenedor del listado -->
+      <section class="lista-container">
+        <h2>Mis Tareas</h2>
+        <ul id="lista-tareas"></ul>
+      </section>
+    </main>
+  </div>
+
+  <script src="js\app.js"></script>
+</body>
+</html>
